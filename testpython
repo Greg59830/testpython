@@ -1,0 +1,22 @@
+print((25+30+27+22-8) * 3)
+
+distance1=(2+34+6)
+print(distance1, end=" ")
+print(distance1*2, end=" ")
+print(distance1*3)
+
+surface=((5*17)+(2*7)+5+(2*2))
+print (surface*surface)
+print(surface*4)
+
+compte = 1
+for loop in range(100):
+   print(compte)
+   compte = compte + 1
+print("J'arrive !")
+
+compte = 100
+for loop in range(101):
+   print(compte)
+   compte = compte - 1
+print("Décollage !")
