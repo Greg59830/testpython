@@ -1,6 +1,0 @@
-print((25+30+27+22-8) * 3)
-
-distance1=(2+34+6)
-print(distance1, end=" ")
-print(distance1*2, end=" ")
-print(distance1*3)
