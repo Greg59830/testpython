@@ -81,3 +81,7 @@ for i in range (1,21):
    for j in range (1,21):
       print (i*j,  end=" ")
    print( )
+
+surFace = int (input())
+prodUction = int(23)
+print ((surFace*surFace)*prodUction)
