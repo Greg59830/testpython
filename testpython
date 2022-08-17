@@ -31,3 +31,8 @@ totalBonbons=0
 for resultat in range (1,51):
    totalBonbons += resultat
    print(totalBonbons)
+
+totalBonbons=0
+for resultat in range (1,51):
+   totalBonbons += resultat
+   print(totalBonbons)
