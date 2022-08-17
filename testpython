@@ -89,3 +89,8 @@ print ((surFace*surFace)*prodUction)
 day = int (input())
 pray = int((60*60)*16)
 print (day*pray)
+
+âgeCadet = int(input())
+âgeAîné = int (input())
+différence = âgeAîné - âgeCadet
+print(différence)
