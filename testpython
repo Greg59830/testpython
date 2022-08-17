@@ -47,3 +47,33 @@ for loop in range(10):
       gauche()  
    deposer()
    anneau = anneau + 1
+
+cube1=17
+for loop in range (1):
+    cube1=((cube1*cube1)*cube1)
+cube2=15
+for loop in range (1):
+   cube2=((cube2*cube2)*cube2)
+cube3=13
+for loop in range (1):
+   cube3=((cube3*cube3)*cube3)
+cube4=11
+for loop in range (1):
+   cube4=((cube4*cube4)*cube4) 
+cube5=9
+for loop in range (1):
+   cube5=((cube5*cube5)*cube5)
+cube6=7
+for loop in range (1):
+   cube6=((cube6*cube6)*cube6)
+cube7=5
+for loop in range (1):
+   cube7=((cube7*cube7)*cube7)
+cube8=3
+for loop in range (1):
+   cube8=((cube8*cube8)*cube8)
+cube9=1
+for loop in range (1):
+   cube9= cube1+cube2+cube3+cube4+cube5+cube6+cube7+cube8+cube9
+   print (cube9)
+    
