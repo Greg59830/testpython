@@ -1,3 +1,6 @@
+France IOI niveau 1
+
+
 print((25+30+27+22-8) * 3)
 
 distance1=(2+34+6)
@@ -98,3 +101,8 @@ print(différence)
 numBER = int (input())
 for i in range (numBER):
    print ("Je dois suivre en cours")
+   
+tpMIN= int (input())
+tpMAX=int(input())
+for i in range (tpMIN,tpMAX+1):
+   print(i)
