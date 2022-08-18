@@ -94,3 +94,7 @@ print (day*pray)
 âgeAîné = int (input())
 différence = âgeAîné - âgeCadet
 print(différence)
+
+numBER = int (input())
+for i in range (numBER):
+   print ("Je dois suivre en cours")
