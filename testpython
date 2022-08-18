@@ -106,3 +106,9 @@ tpMIN= int (input())
 tpMAX=int(input())
 for i in range (tpMIN,tpMAX+1):
    print(i)
+
+nb1 = 66
+nbEND= int (input())
+for i in range (2,nbEND+2):
+   print(nb1)
+   nb1 *= i
