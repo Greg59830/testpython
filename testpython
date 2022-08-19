@@ -118,3 +118,8 @@ largeurEmplacement = int (input())
 nbVendeurs = int (input())
 for i in range (nbVendeurs+1):
    print((i*largeurEmplacement)+Depart)
+
+somme=0
+for i in range (20):
+   somme += int(input())
+print (somme)
