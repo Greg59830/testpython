@@ -134,3 +134,12 @@ for largeurEtage in range (largeurMin,largeurMax+1):
    volumeSocle += volumeEtage
    
 print (volumeSocle)
+
+nbKarva = int(input())
+
+for i in range(nbKarva):
+   poid=int(input())
+   age=int(input())
+   longeurCornes=int(input())
+   hauTeur=int(input())
+   print(longeurCornes*hauTeur+poid)
