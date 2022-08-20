@@ -123,3 +123,14 @@ somme=0
 for i in range (20):
    somme += int(input())
 print (somme)
+
+volumeSocle=0
+largeurMax=int(input())
+largeurMin=int(input())
+
+largeurEtage=largeurMax
+for largeurEtage in range (largeurMin,largeurMax+1):
+   volumeEtage= 1*largeurEtage*largeurEtage
+   volumeSocle += volumeEtage
+   
+print (volumeSocle)
