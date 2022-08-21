@@ -150,3 +150,12 @@ poiDs=int (input())
 total= nbPaquet*poiDs
 if (total > 105): 
    print ("Surcharge !")
+   
+kmDepart = int (input())
+kmArrivee = int (input())
+
+diff = kmDepart-kmArrivee
+
+if (diff < 0): 
+   diff = - diff
+print(diff)
