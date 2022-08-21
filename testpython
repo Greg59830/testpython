@@ -143,3 +143,10 @@ for i in range(nbKarva):
    longeurCornes=int(input())
    hauTeur=int(input())
    print(longeurCornes*hauTeur+poid)
+
+
+nbPaquet= int (input())
+poiDs=int (input())
+total= nbPaquet*poiDs
+if (total > 105): 
+   print ("Surcharge !")
