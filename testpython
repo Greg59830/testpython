@@ -159,3 +159,12 @@ diff = kmDepart-kmArrivee
 if (diff < 0): 
    diff = - diff
 print(diff)
+
+heureArrivee= int(input())
+
+total= 10+5*heureArrivee
+
+if (total > 53):
+   total=53
+   
+print (total)
