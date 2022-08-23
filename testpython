@@ -190,3 +190,16 @@ if age < 21:
    print("Tarif réduit")
 else:
    print("Tarif plein")
+
+//niveau 1-5 traversée du pont
+
+valeurDe1 =int (input())
+valeurDe2 =int (input())
+
+if (valeurDe1 + valeurDe2 >= 10):
+   print ("Taxe spéciale !")
+   print (36)
+   
+if (valeurDe1 + valeurDe2 < 10):
+   print ("Taxe régulière")
+   print ((valeurDe1 + valeurDe2)*2)
