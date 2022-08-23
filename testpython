@@ -168,3 +168,17 @@ if (total > 53):
    total=53
    
 print (total)
+
+//niveau 1-5 bagarre generale
+
+surfArignon = int(input()
+surfEvaran = int(input()
+
+
+if (surfArignon - surfEvaran >10 )
+
+print ("La famille Arignon a un champ trop grand")
+
+elif (surfEvaran-surfArignon >10)
+
+print ("La famille Evaran a un champ trop grand")
