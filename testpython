@@ -182,3 +182,11 @@ print ("La famille Arignon a un champ trop grand")
 elif (surfEvaran-surfArignon >10)
 
 print ("La famille Evaran a un champ trop grand")
+
+//niveau 1-5 tarif bateau:
+
+age = int(input())
+if age < 21:
+   print("Tarif réduit")
+else:
+   print("Tarif plein")
