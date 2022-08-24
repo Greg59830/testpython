@@ -118,7 +118,7 @@ largeurEmplacement = int (input())
 nbVendeurs = int (input())
 for i in range (nbVendeurs+1):
    print((i*largeurEmplacement)+Depart)
-
+  
 somme=0
 for i in range (20):
    somme += int(input())
@@ -222,3 +222,12 @@ elif poidsTotal2 > poidsTotal1:
   
 print("Poids total pour l'équipe 1 :" ,poidsTotal1)
 print("Poids total pour l'équipe 2 :" ,poidsTotal2)
+
+//niveau 1-5 mot de passe du village
+Number = int(input())
+Code = 64741
+
+if Number == Code:
+   print("Bon festin !")
+else:
+   print("Allez-vous en !")
