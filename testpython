@@ -243,3 +243,18 @@ for i in range(nbLieux):
       nbVilles +=1
       
 print (nbVilles)
+
+//niveau 1-6 Planning de la journée
+nbDepart = int (input())
+
+nbVilles = int(input())
+
+nbVillesproches=0
+
+for i in range(nbVilles):
+   distances = int(input())
+   diff = nbDepart - distances
+   if (abs(diff)<=50):
+      nbVillesproches +=1
+      
+print (nbVillesproches)
