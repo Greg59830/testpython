@@ -258,3 +258,16 @@ for i in range(nbVilles):
       nbVillesproches +=1
       
 print (nbVillesproches)
+
+//niveau 1-6 distancel la plus longue
+walkingDay = int(input())
+
+distanCemax = 0
+
+for i in range (walkingDay):
+   distanCe = int(input())
+   if (distanCemax < distanCe):
+      distanCemax = distanCe
+ 
+print (distanCemax)
+
