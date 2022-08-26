@@ -271,3 +271,20 @@ for i in range (walkingDay):
  
 print (distanCemax)
 
+//niveau 1-6 calcul denivele
+
+nbDeniveles = int(input())
+
+alMonte = 0
+alDescente = 0
+
+for i in range (nbDeniveles):
+   varAltitude=int(input())
+   if (varAltitude < 0):
+      alDescente -= varAltitude
+   else:
+      alMonte += varAltitude
+
+print (alMonte)
+print (alDescente)
+
