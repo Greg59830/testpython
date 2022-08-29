@@ -305,3 +305,22 @@ if hauteur <=8 and nbFolioles <= 5:
 
 if hauteur >=12 and nbFolioles <= 7:
    print ("Dorthonion")
+
+//niveau 1-6 Tarif de l'auberge
+age= int (input())
+poids= int (input())
+tarif=0
+
+if (age == 60):
+   print(0)
+
+elif (age < 10):
+   print(5)
+   
+else:  
+ 
+   if (poids >= 20):
+      print (40)
+   
+   else:
+      print(30)
