@@ -364,3 +364,18 @@ for posMarchand in range(2, nbMarchands +1 ):
       pos = posMarchand
 
 print (pos)   
+
+//niveau 1-7: Espion etranger
+
+Debut = int(input())
+Fin=int(input())
+nbEntrees=int(input())
+
+espion=0
+
+for i in range(nbEntrees):
+   dateEntree=int(input())
+   if (dateEntree>=Debut and dateEntree<=Fin):
+      espion += 1
+
+print (espion)  
