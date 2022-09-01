@@ -399,3 +399,22 @@ for i in range(nbMaisons):
         nbMaisonsDansZone += 1
 
 print(nbMaisonsDansZone)
+
+// niveau 1-7 Nombre de jours dans le mois:
+nbMois=int(input())
+
+for i in range (nbMois):
+   totalJour=0
+   
+   if (nbMois <=3):
+      totalJour=30
+   if (nbMois >= 4 and nbMois <=6):
+      totalJour=31
+   if (nbMois>=7 and nbMois <=9):
+      totalJour=30
+   if (nbMois==10):
+      totalJour=31
+   if (nbMois==11):
+      totalJour=29
+      
+print(totalJour)
