@@ -429,5 +429,22 @@ if (fin1 < debut2 or fin2 < debut1):
    print("Pas amis")
 else:
    print ("Amis")
-   
-   
+
+// niveau 1-7: Nombre de persnnes à la fête
+nbPersonnes=int(input())
+nbPersMax=0
+nbPersSim=0
+
+for i in range (nbPersonnes*2):
+   n=int(input())
+   if (n > 0):
+      nbPersSim += 1
+   else:
+      nbPersSim -= 1
+      
+   if (nbPersSim > nbPersMax):
+      nbPersMax = nbPersSim
+      
+print (nbPersMax)
+
+
