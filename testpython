@@ -418,3 +418,16 @@ for i in range (nbMois):
       totalJour=29
       
 print(totalJour)
+
+//niveau 1-7 Amitié entre garde:
+debut1=int(input())
+fin1=int(input())
+debut2=int(input())
+fin2=int(input())
+
+if (fin1 < debut2 or fin2 < debut1):
+   print("Pas amis")
+else:
+   print ("Amis")
+   
+   
