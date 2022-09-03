@@ -468,4 +468,23 @@ for paire in range (nbPaires):
    else:
       print("NON")
       
+ # niveau 1-7 Personne disparue:
  
+ numPers=int(input())
+tailleListe=int(input())
+
+dansLaVille = True 
+
+for i in range (tailleListe):
+   num=int(input())
+   
+   if (num==numPers):
+      dansLaVille = False
+      
+if (dansLaVille):
+   print("Encore dans la ville")
+   
+else:
+   print("Sorti de la ville")
+   
+   
