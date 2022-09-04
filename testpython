@@ -487,4 +487,20 @@ if (dansLaVille):
 else:
    print("Sorti de la ville")
    
+   #niveau 1-7 La grande fête
    
+   dateDebutEtude= int(input())
+dateFinEtude= int(input())
+
+nbInvites=int(input())
+
+espion=0
+
+for i in range (nbInvites):
+   dateDebutInvite= int(input())
+   dateFinInvite= int(input())
+   
+   if (not(dateFinInvite < dateDebutEtude or dateFinEtude < dateDebutInvite)):
+         espion += 1
+
+print (espion)
