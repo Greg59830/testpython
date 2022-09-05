@@ -563,3 +563,15 @@ for jeton in range(nbJetons):
             print("Dans une zone rouge")
         else:
             print("Dans une zone jaune")
+
+#niveau 1-8 Département de médecine : contrôle d'une épidémie
+
+population = int(input())
+jour=1
+malade=1
+
+
+while (malade <  population) :
+   malade = malade*3
+   jour = jour + 1
+print(jour)
