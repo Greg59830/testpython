@@ -575,3 +575,18 @@ while (malade <  population) :
    malade = malade*3
    jour = jour + 1
 print(jour)
+
+#niveau 1-8 Administration : comptes annuels
+
+total = 0
+continuer = True
+
+while (continuer):
+   valeur=int(input())
+   if (valeur == -1):
+      continuer = False
+   else:
+      total  += valeur
+   
+print(total)
+
