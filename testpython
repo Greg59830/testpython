@@ -504,3 +504,42 @@ for i in range (nbInvites):
          espion += 1
 
 print (espion)
+
+
+# Niveau 1-7: 
+nbSuspects=int (input())
+
+for i in range (nbSuspects):
+   taille=int(input())
+   age=int(input())
+   poids=int(input())
+   cheval=int(input())
+   brun=int(input())
+   
+   criteria=0
+   if (taille >=178 and taille <=182):
+      criteria +=1
+      
+   if (age >= 34):
+      criteria+=1
+      
+   if (poids < 70):
+      criteria +=1
+      
+   if (cheval == 0):
+      criteria +=1
+      
+   if (brun == 1):
+      criteria +=1
+      
+   if (criteria == 0):
+      print ("Impossible")
+   
+   if (criteria == 3 or criteria ==4):
+      print ("Probable")
+      
+   if (criteria==5):
+      print("Très probable")
+      
+   else:
+      print("Peu probable")
