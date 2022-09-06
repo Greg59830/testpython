@@ -625,3 +625,19 @@ cote-=1
 
 print(cote)
 print(nbPierresUsed)
+
+#niveau 1-8: Département de chimie : mélange explosif
+
+nbTotalMesures = int(input())
+tempMin = int(input())
+tempMax = int(input())
+
+for i in range(nbTotalMesures):
+   tempActu= int(input())
+   
+   if (tempActu >= tempMin and tempActu <=tempMax):
+      print("Rien à signaler")
+      
+   else:
+      print("Alerte !!")
+      break
