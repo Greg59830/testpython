@@ -609,3 +609,19 @@ while(True):
 
 print("Nombre d'essais nécessaires :")
 print(totalessai)  
+
+# niveau1-8 Département d'architecture : construction d'une pyramide
+nbMaxPierres= int(input())
+
+cote=0
+nbPierresUsed= 0
+
+while (nbPierresUsed <= nbMaxPierres):
+   cote+=1
+   nbPierresUsed+= cote* cote
+   
+nbPierresUsed -= cote*cote
+cote-=1
+
+print(cote)
+print(nbPierresUsed)
