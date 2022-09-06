@@ -590,3 +590,22 @@ while (continuer):
    
 print(total)
 
+#niveau 1-8 Départeemnt de Pédagogie: le "c'est plus,c'est moins"
+
+nbaTrouver = int(input())
+totalessai=0
+
+while(True):
+   nbDuJoueur=int(input())
+   totalessai +=1
+   if (nbDuJoueur == nbaTrouver):
+      break
+     
+   if (nbDuJoueur < nbaTrouver):
+      print("c'est plus")
+   
+   else:
+      print("c'est moins")
+
+print("Nombre d'essais nécessaires :")
+print(totalessai)  
